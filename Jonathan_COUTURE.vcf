@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:COUTURE;Jonathan;;;
+FN:Jonathan COUTURE
+ORG:Agglomération d'Agen;Territoire Numérique
+TITLE:Chef de projet numérique citoyen
+TEL;TYPE=WORK,VOICE:0553696866
+TEL;TYPE=CELL,VOICE:0664058244
+EMAIL;TYPE=WORK,INTERNET:jonathan.couture@agglo-agen.fr
+END:VCARD
