@@ -6,65 +6,32 @@
   <meta name="theme-color" content="#0b3b7a">
   <title>Jonathan COUTURE — Contact</title>
   <style>
-    :root{
-      --blue:#0b3b7a;
-      --blue-2:#1456a0;
-      --green:#2f8c46;
-      --bg:#eef4f8;
-      --card:#ffffff;
-      --text:#10243b;
-      --muted:#64748b;
-      --line:#d8e2ec;
-      --shadow:0 18px 50px rgba(11,59,122,.12);
-    }
+    :root{--blue:#0b3b7a;--blue-2:#1456a0;--bg:#eef4f8;--text:#10243b;--muted:#64748b;--line:#d8e2ec;--shadow:0 18px 50px rgba(11,59,122,.12)}
     *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      background:linear-gradient(180deg,#f7fbfe 0%,var(--bg) 100%);
-      color:var(--text);
-    }
-    .wrap{
-      width:min(760px,calc(100% - 28px));
-      margin:0 auto;
-      padding:28px 0 40px;
-    }
-    .panel{
-      background:rgba(255,255,255,.94);
-      border:1px solid rgba(216,226,236,.9);
-      border-radius:24px;
-      box-shadow:var(--shadow);
-      overflow:hidden;
-    }
-    .visual{padding:16px 16px 0}
-    .visual img{display:block;width:100%;height:auto;border-radius:18px}
-    .content{padding:22px}
-    h1{margin:0;color:var(--blue);font-size:clamp(1.75rem,5vw,2.4rem);line-height:1.05;letter-spacing:-.02em}
-    .role{margin:8px 0 2px;font-weight:700;font-size:1.05rem}
-    .org{margin:0 0 20px;color:var(--muted);font-size:.98rem}
-    .primary{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;text-decoration:none;background:var(--blue);color:white;font-weight:800;font-size:1.05rem;padding:15px 18px;border-radius:14px;margin:0 0 12px;transition:.15s ease}
-    .primary:active{transform:scale(.99)}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
-    .btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;text-decoration:none;color:var(--blue);background:#f7fbff;border:1px solid var(--line);border-radius:12px;font-weight:700;padding:12px;text-align:center}
-    .site{grid-column:1/-1}
-    .details{margin-top:20px;padding-top:16px;border-top:1px solid var(--line);font-size:.93rem;color:var(--muted);line-height:1.55;text-align:center}
-    .details a{color:var(--blue-2);text-decoration:none}
-    .footer{text-align:center;margin-top:16px;color:#8090a3;font-size:.78rem}
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#f7fbfe 0%,var(--bg) 100%);color:var(--text)}
+    .wrap{width:min(760px,calc(100% - 28px));margin:0 auto;padding:28px 0 40px}
+    .panel{background:rgba(255,255,255,.96);border:1px solid rgba(216,226,236,.9);border-radius:24px;box-shadow:var(--shadow);overflow:hidden}
+    .visual{padding:16px 16px 0}.visual img{display:block;width:100%;height:auto;border-radius:18px}
+    .content{padding:22px}h1{margin:0;color:var(--blue);font-size:clamp(1.75rem,5vw,2.4rem);line-height:1.05;letter-spacing:-.02em}
+    .role{margin:8px 0 2px;font-weight:700;font-size:1.05rem}.org{margin:0 0 20px;color:var(--muted);font-size:.98rem}
+    .primary{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;text-decoration:none;background:var(--blue);color:white;font-weight:800;font-size:1.05rem;padding:15px 18px;border-radius:14px;margin:0 0 12px}.primary:active{transform:scale(.99)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;text-decoration:none;color:var(--blue);background:#f7fbff;border:1px solid var(--line);border-radius:12px;font-weight:700;padding:12px;text-align:center}.site{grid-column:1/-1}
+    .details{margin-top:20px;padding-top:16px;border-top:1px solid var(--line);font-size:.93rem;color:var(--muted);line-height:1.55;text-align:center}.details a{color:var(--blue-2);text-decoration:none}.footer{text-align:center;margin-top:16px;color:#8090a3;font-size:.78rem}
     @media (max-width:560px){.wrap{width:min(100% - 18px,760px);padding-top:12px}.panel{border-radius:18px}.visual{padding:10px 10px 0}.visual img{border-radius:14px}.content{padding:18px}.grid{grid-template-columns:1fr}.site{grid-column:auto}}
   </style>
 </head>
 <body>
   <main class="wrap">
     <section class="panel">
-      <div class="visual"><img src="carte-jonathan.png" alt="Carte de visite de Jonathan COUTURE"></div>
+      <div class="visual"><img src="carte-jonathan.jpg" alt="Carte de visite de Jonathan COUTURE"></div>
       <div class="content">
         <h1>Jonathan COUTURE</h1>
         <p class="role">Chef de projet numérique citoyen</p>
         <p class="org">Territoire Numérique — Agglomération d'Agen</p>
-        <a class="primary" href="Jonathan_COUTURE.vcf" download>＋ Ajouter à mes contacts</a>
+        <a class="primary" href="Jonathan_COUTURE.vcf">＋ Ajouter à mes contacts</a>
         <div class="grid">
           <a class="btn" href="tel:+33553696866">☎ Appeler le bureau</a>
-          <a class="btn" href="tel:+33664058244">▣ Appeler le mobile</a>
+          <a class="btn" href="tel:+33664058244">📱 Appeler le mobile</a>
           <a class="btn" href="mailto:jonathan.couture@agglo-agen.fr">✉ Envoyer un e-mail</a>
           <a class="btn site" href="https://www.agglo-agen.net/" target="_blank" rel="noopener">↗ Site de l'Agglomération d'Agen</a>
         </div>
